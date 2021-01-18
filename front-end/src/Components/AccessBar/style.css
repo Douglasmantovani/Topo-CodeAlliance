@@ -1,0 +1,48 @@
+.barra{
+    background: #393939;
+    padding: 1vw 2vw 0;
+  }
+  
+
+  .between{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fa{
+    font-size: 2vw !important;
+  }
+  
+  .between {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .links {
+      margin-left: 2vw;
+  }
+  
+  .topbar {
+      color: white;
+      font-size: .8vw;
+  }
+  
+  .topbar:hover{
+    transition: .3s;
+    color: #1498D5;
+  }
+  
+  b{
+      background: #2A2E32;
+      padding: .4vw;
+      border-radius: .5vw;
+      box-shadow: 1px 1px 5px #2A2E32;
+  }
+  
+  @media (max-width: 767px){
+    .barra{
+      display: none;
+    }
+  }
+  

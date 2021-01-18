@@ -1,0 +1,291 @@
+
+.btn-signup {
+  border: none;
+  border-radius: 6px;
+  background-color: #1498D5;
+  font-size: 1.7em;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 50px;
+  padding: 10px 30px;
+  margin: 5px;
+}
+
+#vagas-content-section{
+  width: 100%;
+  background:#EEEEEE;
+  display: block;
+}
+
+
+#vagas-content{
+  width: 100%;
+  padding: 0 8vw;
+  display: block;
+  padding-top: 50px;
+}
+
+.tittle-section {
+  font-size: 30px;
+}
+
+.line-blue{
+  width: 140px;
+  height: 3px;
+  border: none;
+  /* border-radius: 8px; */
+  background:#1498D5;
+}
+
+.vagas-card{
+  /* margin:10px 0; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: #464444; */
+}
+ 
+.card{
+  display: block;
+  width: 200px;
+  max-width: 200px;
+  height: 210px;
+  max-height: 230px;
+  border-radius:6px;
+  background-color: #FFFFFF;
+  /* margin: 10px 10px 10px 0px; */
+  margin: 36px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.card-header-white h4{
+  font-size: 14pt !important;
+  font-weight: bold;
+}
+
+.card-header-white{
+  text-align: center;
+  padding: 12px;
+  border-radius: 6px 6px 0 0;
+  background: #fff;
+  height: 80px;
+}
+
+.card-header-white hr{
+  margin: auto;
+  width: 110px;
+  height: 3px;
+  border: none;
+  /* border-radius: 8px; */
+  background:#1498D5;
+}
+
+.card-body{
+  display: block; 
+  width: 100%;
+  height: 130px;
+}
+
+.card-body span{
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.card-flex{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-footer a{
+  color: #000;
+  font-weight: bold;
+  font-size: 14pt;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #000; /* Safari */  
+  text-decoration-color: #000;
+}
+
+.bg-home {
+  background-image: url("./../../assets/BannerHome.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 44%;
+  background-size: cover;
+  width: 100%;
+  height: 5vw;
+  min-height: 400px;
+  flex-direction: column;
+}
+
+#test-content-section{
+  width: 100%;
+  background:#fff;
+  display: block;
+  padding: 50px 0;
+}
+
+.btnInfo{
+  width: 40px;
+  height: 40px;
+  background: #373737;
+  color: white;
+  position: fixed;
+  left: 3.2vw;
+  bottom: 9vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnInfo:hover{
+  background: #1498D5;
+  cursor: pointer;
+  color: #373737;
+}
+
+#test-content{
+  width: 100%;
+  padding: 0 8vw;
+  display: block;
+}
+
+.card-test{
+  height: 282px;
+  max-height: 282px;
+}
+
+.header-color-card{
+  text-align: center;
+  padding: 20px;
+  border-radius: 6px 6px 0 0;
+  background: #1498D5;
+  height: 100px;
+}
+
+.header-color-card img{
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.body-color-card{
+  height: 182px !important;
+  background: #FBFBFB;
+}
+
+.body-color-card span{
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+body
+  > div.bodyPart
+  > div.StartImage
+  > div.EmpresaCandidato
+  > div.Empresa
+  > div
+  > a
+  > button,
+body
+  > div.bodyPart
+  > div.StartImage
+  > div.EmpresaCandidato
+  > div.Candidato
+  > div
+  > a
+  > button ,
+  #root > div > div.bodyPart > div.QuadroDeVagas > div > div:nth-child(n) > div.LinkVaga > h4{
+  cursor: pointer;
+}
+
+#conteudo > div.twosec > h2{
+  text-align: center;
+  padding: 5vw 0;
+}
+
+/* Access */
+
+.preto body > div.bodyPart > div.TesteDePersonalidade,
+.preto body > div.bodyPart > div.Imagens{
+    background: black;
+}
+
+.preto .bt,
+.preto body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa > div > a > button > h2,
+.preto body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Candidato > div > a > button > h2,
+.preto #root > div > div.bodyPart > div.TesteDePersonalidade > div.TextoTeste > div > a > button > h4{
+    color: yellow !important;
+    text-decoration: underline !important;
+}
+
+.preto .bt:hover{
+    color: #373737 !important;
+}
+
+@media(max-width:888px){
+    .BoxDepoimentos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .BoxTexto{
+        margin-bottom: 50px;
+        padding: 6vw;
+    }
+
+    .BoxDeVagas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Vaga{
+        margin-bottom: 50px;
+    }
+    .TesteDePersonalidade{
+        text-align:center;
+    }
+    body > div.bodyPart > div.TesteDePersonalidade > div.TextoTeste{
+        padding: 5vw;
+    }
+    .maior body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Candidato > div > button > h2,
+    .maior body > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa > div > button > h2{
+        font-size: 20px;
+    }
+}
+
+#root > div > div.bodyPart > div.Imagens > div:nth-child(n) > p{
+  text-align: center;
+}
+
+/* access */
+
+.preto .bt:hover {
+  color: #353535 !important;
+  background: #373737;
+  cursor: pointer;
+}
+
+.preto #botao, 
+.preto #botao > div,
+.preto #botaomaior, 
+.preto #botaomaior > div, 
+.preto #botaolibras, 
+.preto #botaolibras > div, 
+.preto #btn-gravar-audio,
+.preto #btn-gravar-audio > div,
+.preto #root > div > div.bodyPart > div.Depoimentos > div > div:nth-child(n) > div > p{
+  background-color: #373737 !important;
+}
+
+#root > div > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Empresa > div > a > button,
+#root > div > div.bodyPart > div.StartImage > div.EmpresaCandidato > div.Candidato > div > a > button{
+  cursor: pointer;
+}

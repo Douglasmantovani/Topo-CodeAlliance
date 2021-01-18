@@ -1,0 +1,28 @@
+.flex>p{
+    text-align: start;
+    padding:0 2vw
+  }
+  
+  .imgabout{
+    text-align: center;
+    padding:0 2vw
+  }
+
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #content-banner{
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  
+  #content-banner > div{
+    text-align: center;
+  }
+  
+  #content-banner > div > h1{
+    font-size: 50px;
+  }

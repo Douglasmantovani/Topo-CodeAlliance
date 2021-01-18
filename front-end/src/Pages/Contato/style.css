@@ -1,0 +1,36 @@
+.form-signin{
+    display: block;
+    margin: auto;
+    padding: 0 8vw;
+    margin-bottom: 30px;
+  }
+  
+  .form-content{
+    display: flex;
+    padding: 0 2vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CentralizeAll{
+    display: flex;
+  }
+  
+  .form-content img{
+    width: 20vw;
+  }
+  
+  .form-content .form-lbl{
+   display: none;
+  }
+  
+  .form-control{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .textarea-container{
+    resize: vertical;
+  
+  }
